@@ -1,0 +1,36 @@
+name: group_seven
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: any
+  meta: ^1.1.7
+  equatable: ^0.6.1
+  curved_navigation_bar: ^0.3.3
+  google_fonts: ^1.1.0
+  splashscreen: ^1.2.0
+ 
+  shared_preferences: ^0.5.3+4
+  get_it: ^3.0.1
+  provider: ^4.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mockito: ^4.1.1
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - images/japan.jpg
+    - images/loading.gif
